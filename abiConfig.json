@@ -1,0 +1,21 @@
+{
+    "projectName": "items",
+    "buildDirectory": "build",
+    "abiOutputDirectory": "abis",
+    "abiConfigurations": [
+        {
+            "configuration": "lgInternal",
+            "sortedJSON": true,
+            "searchRecursively": true,
+            "contractsToInclude": [],
+            "contractsToIgnore": [],
+            "eventsToIgnore": [],
+            "functionsToIgnore": [],
+            "selectorsToIgnore": [],
+            "eventsPrecedence": {
+                "OwnershipTransferred": "LibDiamond",
+                "DiamondCut": "LibDiamond"
+            }
+        }
+    ]
+}
